@@ -49,7 +49,7 @@ joblib
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
+git clone github.com/Chandrakant6/cardiovascular_disease_predictor_2
 cd heart-disease-prediction
 ```
 
