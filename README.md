@@ -132,7 +132,7 @@ predictions, probabilities = predictor.predict(new_data)
 ## Performance Optimization
 
 The current implementation is optimized for speed by:
-- Using 10% of the data for training
+- Using 40% of the data for training
 - Simplified model parameters
 - Sequential training instead of parallel processing
 - Reduced cross-validation folds
