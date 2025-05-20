@@ -69,7 +69,7 @@ class HeartDiseasePredictor:
         df = pd.read_csv(file_path, sep=';')
         
         # Sample the data to reduce size (take 10% of the data)
-        df = df.sample(frac=0.1, random_state=42)
+        df = df.sample(frac=0.4, random_state=42)
         print(f"Using {len(df)} samples for training")
         
         # Basic preprocessing
